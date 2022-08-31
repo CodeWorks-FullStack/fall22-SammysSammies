@@ -1,0 +1,32 @@
+header{
+  background-color: #FBB732;
+}
+
+body{
+  background-color: #3E3E3E;
+  color: white;
+}
+
+.menu-border{
+  border: solid 3px white;
+  border-radius: 3em;
+}
+
+.menu{
+  min-height: 100vh;
+}
+
+.menu-item{
+  border: solid 3px white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 0 2px #FBB732;
+}
+
+.menu-item:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.checkout{
+  height: 50vh;
+}
